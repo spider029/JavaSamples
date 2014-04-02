@@ -11,11 +11,12 @@ package com.sterling;
  * @author tprasad
  */
 public class Sample {
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-     System.out.println("TEST");
-    }
-    
-}
+ interface HelloWorld {
+	    String hello(String name);
+	  } 
+	 
+	  public static void main(String[] args) {        
+	     HelloWorld helloWorld = (String name) -> { return "Hello " + name; }; 
+	     System.out.println(helloWorld.hello("Joe"));
+	  }
+	}
