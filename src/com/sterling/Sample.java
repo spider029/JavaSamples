@@ -11,7 +11,6 @@ package com.sterling;
  * @author tprasad
  */
 public class Sample {
-
     /**
      * @param args the command line arguments
      */
