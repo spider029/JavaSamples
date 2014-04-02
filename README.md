@@ -1,2 +1,1 @@
-JavaSamples
-===========
+JavaSamples (* Basics to Advance *)
